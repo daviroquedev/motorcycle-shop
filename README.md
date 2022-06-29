@@ -1,11 +1,21 @@
-# Sample Snack app
+# Motorcycle shop
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+<p>EM CONSTRUÇÃO....</p>
+App com catalago de motos para concessionária.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+# EXPO
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Sendo feito no expo, você pode baixar o projeto ou pode acessar pelo link https://snack.expo.dev/@daviroquedev/me2-motos-at
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+# PRINTS
+<p>TELA INICIAL</p>
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+![tela1](https://user-images.githubusercontent.com/101668192/176564118-797f1623-3849-4929-998e-01a36f6bf1e9.jpg)
+
+<p>TELA PRINCIPAL</p>
+
+![tela2](https://user-images.githubusercontent.com/101668192/176564123-b87517c4-1ba6-4437-a717-8b484e510a8f.jpg)
+
+<p>MODAL</p>
+
+![modal](https://user-images.githubusercontent.com/101668192/176564131-5520d2a7-3494-4bd9-9187-663ffe9959eb.jpg)

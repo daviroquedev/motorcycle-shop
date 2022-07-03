@@ -37,7 +37,7 @@ Preferi fazer pelo snack-expo por ser mais leve.
 
 
 # BUGS:
-- Rotas ao fazer cadastro não estou conseguindo acessar a rota corretamente.
+- Rotas ao fazer cadastro não estou conseguindo acessar a rota corretamente ao concluir o cadastro e ao realizar o login..
 - Tentei colocar o banco de dados (Objeto motos) como FlatList para fazer pesquisa no SearchBar dos itens (motos) mas falhou também. 
 
 

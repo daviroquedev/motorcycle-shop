@@ -11,6 +11,7 @@ import {
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
+
 import Imagem from './imagem';
 
 export default function Card_motos(props) {
@@ -45,9 +46,9 @@ export default function Card_motos(props) {
           }}>
           <View style={styles.centeredView}>
             <View style={styles.modalView}>
-              <Text style={styles.modalText}>modelo: {props.moto}</Text>
+              <Text style={styles.modalText}>modelo: {props.modelo}</Text>
               <Text style={styles.modalText}>valor: {props.price}</Text>
-              <Text style={styles.modalText}>km rodado: {props.state}</Text>
+              <Text style={styles.modalText}>km: {props.state}</Text>
               <TouchableOpacity
                 style={[styles.buttonCloseModal]}
                 onPress={() => setModalVisible(!modalVisible)}>
@@ -81,7 +82,6 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   moto_images: {
-    border: 'solid',
     width: 300,
     height: 200,
     borderRadius: 20,

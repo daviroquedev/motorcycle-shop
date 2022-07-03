@@ -13,9 +13,10 @@ Preferi fazer pelo snack-expo por ser mais leve.
  
  Pelo link do expo snack  https://snack.expo.dev/@daviroquedev/me2-motos-at  ou baixando o projeto em sua maquina executando
  
- - npm install
- - npm i -g expo-cli
- - expo start
+ - clone o repositorio
+ - use npm install
+ - use npm i -g expo-cli
+ - use expo start
  
 
 

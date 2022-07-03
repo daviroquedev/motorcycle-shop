@@ -1,13 +1,18 @@
 # Motorcycle shop
 
-<p>EM CONSTRUÇÃO....</p>
+
+
 App com catalago de motos para concessionária.
 
 # EXPO
 
 Sendo feito no expo, você pode baixar o projeto ou pode acessar pelo link https://snack.expo.dev/@daviroquedev/me2-motos-at
+Preferi fazer pelo snack-expo por ser mais leve.
 
-
+# COMO ACESSAR O PROJETO 
+<p>EM CONSTRUÇÃO....</p>
+<p>EXPO...</p>
+<p>APK...</p>
 
 
 # PRINTS
@@ -32,7 +37,7 @@ Sendo feito no expo, você pode baixar o projeto ou pode acessar pelo link https
 
 
 # BUGS:
-- Rotas ao fazer cadastro não estou conseguindo acessar a rota corretamente.
+- Rotas ao fazer cadastro não estou conseguindo acessar a rota corretamente ao concluir o cadastro e ao realizar o login..
 - Tentei colocar o banco de dados (Objeto motos) como FlatList para fazer pesquisa no SearchBar dos itens (motos) mas falhou também. 
 
 

@@ -7,15 +7,33 @@ App com catalago de motos para concessionária.
 
 Sendo feito no expo, você pode baixar o projeto ou pode acessar pelo link https://snack.expo.dev/@daviroquedev/me2-motos-at
 
+
+
+
 # PRINTS
 <p>TELA INICIAL</p>
 
-![tela1](https://user-images.githubusercontent.com/101668192/176564118-797f1623-3849-4929-998e-01a36f6bf1e9.jpg)
+![logintela](https://user-images.githubusercontent.com/101668192/177028285-d0f6773f-50d5-44f5-9b85-7029d72447bf.jpg)
+  
 
 <p>TELA PRINCIPAL</p>
 
-![tela2](https://user-images.githubusercontent.com/101668192/176564123-b87517c4-1ba6-4437-a717-8b484e510a8f.jpg)
+![motoscatalogo](https://user-images.githubusercontent.com/101668192/177028293-1c7837ae-b844-4a5d-926b-b4fb7079bf9f.jpg)
+
+
+<p>TELA REGISTRO</p>
+
+![registrotela](https://user-images.githubusercontent.com/101668192/177028298-927bfaf7-4301-4a3f-875a-0120cc9d5009.jpg)
+
 
 <p>MODAL</p>
 
-![modal](https://user-images.githubusercontent.com/101668192/176564131-5520d2a7-3494-4bd9-9187-663ffe9959eb.jpg)
+![modal](https://user-images.githubusercontent.com/101668192/177028311-eb54d305-ce8b-4320-bede-295ad29e7541.jpg)
+
+
+# BUGS:
+- Rotas ao fazer cadastro não estou conseguindo acessar a rota corretamente.
+- Tentei colocar o banco de dados (Objeto motos) como FlatList para fazer pesquisa no SearchBar dos itens (motos) mas falhou também. 
+
+
+![error](https://user-images.githubusercontent.com/101668192/177028389-bb2b1444-1daf-4607-91b5-b3b384827bf8.png)

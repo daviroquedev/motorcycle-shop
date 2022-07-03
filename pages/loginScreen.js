@@ -6,13 +6,47 @@ import {
   TextInput,
   StyleSheet,
   TouchableOpacity,
-  Text,
+  Text, Alert
 } from 'react-native';
 
-export default function LoginMenu({navigation}) {
-  
+
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+export default function LoginMenu({ navigation }) {
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
+
+  async function fazerLogin() {
+    if (email == '') {
+      alert('Preencha o campo email');
+      return;
+    } else if (senha == '') {
+      alert('Preencha o campo senha');
+      return;
+    }
+
+    try {
+      const cadastro = await AsyncStorage.getItem(email);
+      const usuario = JSON.parse(cadastro);
+
+      if (usuario != null) {
+        if (email == usuario.email && senha == usuario.senha) {
+          props.navigation.reset({
+            index: 0,
+            params: { email: email },
+            routes: [{ name: 'Main'},
+           ],
+          });
+        } else {
+          alert('Usuário ou senha incorretos');
+        }
+      } else {
+        alert('usuário não encontrado');
+      }
+    } catch (err) {
+      alert(err);
+    }
+  }
 
   return (
     <KeyboardAvoidingView style={styles.container}>
@@ -32,17 +66,23 @@ export default function LoginMenu({navigation}) {
             keyboardType="email-adress"
             value={email}
             style={styles.textInput}
+            onChangeText={text => setEmail(text)}
           />
+
           <TextInput
             placeholder="Senha"
             autoCorrect={false}
             keyboardType="numeric"
-            value={senha}
+            secureTextEntry={true}
             style={styles.textInput}
+            value={senha}
+            onChangeText={text => setSenha(text)}
           />
         </View>
         <View>
-          <TouchableOpacity style={styles.btnLogar}>
+          <TouchableOpacity style={styles.btnLogar}
+          onPress={fazerLogin}
+          >
             <Text style={styles.txtBtnLogar}>logar </Text>
           </TouchableOpacity>
         </View>
@@ -51,7 +91,9 @@ export default function LoginMenu({navigation}) {
         <TouchableOpacity style={styles.btn}>
           <Text style={styles.btnText}>Esqueci a senha</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Register')}>
+        <TouchableOpacity
+          style={styles.btn}
+          onPress={() => navigation.navigate('Register')}>
           <Text style={styles.btnText}>Criar conta</Text>
         </TouchableOpacity>
       </View>
@@ -100,12 +142,12 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     marginBottom: 14,
   },
-txtBtnLogar:{
-  color:'white',
-  textTransform:'uppercase',
-  fontWeight:'bold',
-  margin: 2,
-},
+  txtBtnLogar: {
+    color: 'white',
+    textTransform: 'uppercase',
+    fontWeight: 'bold',
+    margin: 2,
+  },
   btnContainer: {
     alignItems: 'center',
     flexDirection: 'row',

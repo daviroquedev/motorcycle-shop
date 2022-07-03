@@ -10,9 +10,13 @@ Sendo feito no expo, você pode baixar o projeto ou pode acessar pelo link https
 Preferi fazer pelo snack-expo por ser mais leve.
 
 # COMO ACESSAR O PROJETO 
-<p>EM CONSTRUÇÃO....</p>
-<p>EXPO...</p>
-<p>APK...</p>
+ 
+ Pelo link do expo snack  https://snack.expo.dev/@daviroquedev/me2-motos-at  ou baixando o projeto em sua maquina executando
+ 
+ - npm install
+ - npm i -g expo-cli
+ - expo start
+ 
 
 
 # PRINTS

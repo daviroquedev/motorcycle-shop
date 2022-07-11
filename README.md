@@ -41,9 +41,13 @@ Preferi fazer pelo snack-expo por ser mais leve.
 ![modal](https://user-images.githubusercontent.com/101668192/177028311-eb54d305-ce8b-4320-bede-295ad29e7541.jpg)
 
 
+# BACKLOG
+- ADICIONAR FUNCIONALIDADE DE PESQUISA / TRANSFORMAR OBJETO MOTOS EM FLAT LIST
+
 # BUGS:
-- Rotas ao fazer cadastro não estou conseguindo acessar a rota corretamente ao concluir o cadastro e ao realizar o login..
-- Tentei colocar o banco de dados (Objeto motos) como FlatList para fazer pesquisa no SearchBar dos itens (motos) mas falhou também. 
+<ol>
+<li> Rotas ao fazer cadastro não estou conseguindo acessar a rota corretamente ao concluir o cadastro e ao realizar o login.. </li>
+</ol>
 
 
 ![error](https://user-images.githubusercontent.com/101668192/177028389-bb2b1444-1daf-4607-91b5-b3b384827bf8.png)
